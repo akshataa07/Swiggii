@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3126985420",
+    "firebase_url": "https://lunchbox2-4a23c.firebaseio.com",
+    "project_id": "lunchbox2-4a23c",
+    "storage_bucket": "lunchbox2-4a23c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3126985420:android:2c672bbfe76b2c57",
+        "android_client_info": {
+          "package_name": "com.example.dell.lunchbox2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3126985420-ovkc1grffa1gdsa3ej8ek6ju6aqb9fo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.lunchbox2",
+            "certificate_hash": "11f5ba25bf90b119dd528895d9e582f471bc3783"
+          }
+        },
+        {
+          "client_id": "3126985420-1paaothhq5ctddfja0dcltp64d38j2r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8189Asvu1yhTbgOS1QnY1ke9Ti4HkaIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3126985420-1paaothhq5ctddfja0dcltp64d38j2r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

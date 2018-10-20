@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/colors"
+    tools:context="com.example.dell.lunchbox2.SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+        android:id="@+id/logoimageview"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tiffin5"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoimageview"
+        android:text="@string/the_lunch_box"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/titletextview"
+        android:textColor="@android:color/black"/>
+
+
+</RelativeLayout>

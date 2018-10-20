@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    tools:context="com.example.dell.lunchbox2.LoginActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/my_lunch_box"
+            android:textAlignment="center"
+            android:textColorLink="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:fontFamily="serif"
+            android:drawableTop="@drawable/tiffin1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:drawableEnd="@drawable/ic_person_black_24dp"
+            android:hint="@string/username"
+            android:id="@+id/username"/>
+        <EditText
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_dark"
+            android:drawableEnd="@drawable/ic_keyboard_black_24dp"
+            android:hint="@string/password"
+            android:id="@+id/password"/>
+        <Spinner
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/user_types"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/loginButton"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/forgetPasswordButton"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:id="@+id/createAccount"/>
+
+
+
+</LinearLayout>

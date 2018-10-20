@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.lunchbox2.CustomerRegistration2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customerusernm"
+        android:hint="@string/user_example_com"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:text="@string/mandatory_password"/>
+    <EditText
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/customerpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:text="@string/confirm_password"/>
+    <EditText
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/customerconfirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cust_reg2_button"
+        android:textAllCaps="false"
+        android:text="@string/submit"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
